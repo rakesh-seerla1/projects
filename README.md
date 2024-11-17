@@ -9,4 +9,4 @@ Need to classify the fake and real news accurately.
 Architecture level analysis:
 Data transformation/Text processing using R/Python
 Need to get sentiments Analysis and n-gram analysis with some charts like histogram, Density plot, Barplot, pie-plot etc. 
-Deployment through R Shiny or Flask/ Streamlit
+Deployment through  Streamlit

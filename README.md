@@ -10,4 +10,3 @@ Architecture level analysis:
 Data transformation/Text processing using R/Python
 Need to get sentiments Analysis and n-gram analysis with some charts like histogram, Density plot, Barplot, pie-plot etc. 
 Deployment through  Streamlit
-![Screenshot 2025-01-18 232024](https://github.com/user-attachments/assets/5d825715-5512-4eff-b55a-4eb7700dd13e)

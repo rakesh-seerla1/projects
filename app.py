@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 import pickle
-import sklearn
+
 # Correct paths to model and vectorizer files using relative paths
 model_path = "NLP_PROJECT_MODEL.pkl"
 vectorizer_path = "tfidf_vectorization.pkl"

@@ -10,3 +10,30 @@ Architecture level analysis:
 Data transformation/Text processing using R/Python
 Need to get sentiments Analysis and n-gram analysis with some charts like histogram, Density plot, Barplot, pie-plot etc. 
 Deployment through  Streamlit
+
+# Real or Fake News Analysis
+
+This Streamlit app predicts whether a news article is real or fake based on user input.
+
+## Features
+
+- Text input for news articles
+- Prediction of real or fake news
+- Display of sample data
+- Access to the analysis notebook
+
+## Requirements
+
+- Python 3.x
+- Streamlit
+- scikit-learn
+- pandas
+- numpy
+- nbconvert
+- nbformat
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+

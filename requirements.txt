@@ -5,3 +5,4 @@ nbformat
 pandas
 numpy
 scikit-learn
+plotly

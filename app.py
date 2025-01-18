@@ -1,6 +1,8 @@
 import os
 import streamlit as st
 import pickle
+import nbformat
+from nbconvert import HTMLExporter
 
 # Correct paths to model and vectorizer files using relative paths
 model_path = "NLP_PROJECT_MODEL.pkl"
@@ -68,8 +70,14 @@ elif option == "Notebook":
     st.title("NLP Real or Fake News Analysis Notebook 📓")
     # Read and display the Jupyter Notebook content
     with open("NLP_REAL_or_FAKE_NEWS_ANALYSIS_PROJECT_NOTEBOOK.ipynb") as f:
-        notebook_content = f.read()
-    st.code(notebook_content, language='json')  # Display as code
+        notebook_content = nbformat.read(f, as_version=4)
+    
+    # Convert notebook to HTML
+    html_exporter = HTMLExporter()
+    (body, resources) = html_exporter.from_notebook_node(notebook_content)
+    
+    # Display the notebook as HTML
+    st.markdown(body, unsafe_allow_html=True)
 
 elif option == "Sample Data":
     st.title("Sample Data 📊")

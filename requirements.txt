@@ -1,6 +1,7 @@
 streamlit
-scikit-learn
-pandas
-numpy
+streamlit-jupyter
 nbconvert
 nbformat
+pandas
+numpy
+scikit-learn

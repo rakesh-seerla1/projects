@@ -60,7 +60,7 @@ if option == "Predict News":
 
     # Button for prediction
     if st.button("Submit"):
-        prediction = get_pred(st.session_state.user_input)
+        prediction = get_pred(user_input)
         if prediction == 0:
             st.markdown("<div class='prediction-real'>✅ Prediction: Real News</div>", unsafe_allow_html=True)
         else:
@@ -77,7 +77,7 @@ elif option == "Notebook":
     (body, resources) = html_exporter.from_notebook_node(notebook_content)
     
     # Display the notebook as HTML
-    st.markdown(body, unsafe_allow_html=True)
+    st.components.v1.html(body, height=800, scrolling=True)
 
 elif option == "Sample Data":
     st.title("Sample Data 📊")

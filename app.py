@@ -77,7 +77,7 @@ elif option == "Notebook":
     (body, resources) = html_exporter.from_notebook_node(notebook_content)
     
     # Display the notebook as HTML
-    st.components.v1.html(body, height=700, scrolling=True)
+    st.components.v1.html(body, height=900, scrolling=True)
 
 elif option == "Sample Data":
     st.title("Sample Data 📊")

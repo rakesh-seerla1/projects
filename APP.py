@@ -39,7 +39,7 @@ if option == "Predict News":
         st.write("Prediction: ", prediction)
 
 elif option == "Notebook":
-    st.title("NLP Real or Fake News Analysis Notebook")
+    st.title("REAL_or_FAKE_NEWS_ANALYSIS_PROJECT_NOTEBOOK")#https://github.com/rakesh-seerla1/projects/blob/main/REAL_or_FAKE_NEWS_ANALYSIS_PROJECT_NOTEBOOK.ipynb
     # Read and display the Jupyter Notebook content
     with open("NLP_REAL_or_FAKE_NEWS_ANALYSIS_PROJECT_NOTEBOOK.ipynb") as f:
         notebook_content = f.read()

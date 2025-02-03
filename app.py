@@ -70,14 +70,14 @@ elif option == "Notebook":
     st.title("NLP Real or Fake News Analysis Notebook 📓")
     # Read and display the Jupyter Notebook content
     with open("REAL_or_FAKE_NEWS_ANALYSIS_PROJECT_NOTEBOOK.ipynb") as f:
-        notebook_content = nbformat.read(f, as_version=6)
+        notebook_content = nbformat.read(f, as_version=4)
     
     # Convert notebook to HTML
     html_exporter = HTMLExporter()
     (body, resources) = html_exporter.from_notebook_node(notebook_content)
     
     # Display the notebook as HTML
-    st.components.v1.html(body, height=800, scrolling=True)
+    st.components.v1.html(body, height=1000, scrolling=True)
 
 elif option == "Sample Data":
     st.title("Sample Data 📊")

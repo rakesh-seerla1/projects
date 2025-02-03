@@ -69,7 +69,7 @@ if option == "Predict News":
 elif option == "Notebook":
     st.title("NLP Real or Fake News Analysis Notebook 📓")
     # Read and display the Jupyter Notebook content
-    with open("NLP_REAL_or_FAKE_NEWS_ANALYSIS_PROJECT_NOTEBOOK.ipynb") as f:
+    with open("REAL_or_FAKE_NEWS_ANALYSIS_PROJECT_NOTEBOOK.ipynb") as f:
         notebook_content = nbformat.read(f, as_version=4)
     
     # Convert notebook to HTML

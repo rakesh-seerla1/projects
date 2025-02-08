@@ -3,6 +3,8 @@ import streamlit as st
 import pickle
 import nbformat
 from nbconvert import HTMLExporter
+import re
+import pandas as pd
 
 # Correct paths to model and vectorizer files using relative paths
 model_path = "NLP_PROJECT_MODEL.pkl"
@@ -16,8 +18,20 @@ assert os.path.exists(vectorizer_path), "Vectorizer file not found"
 loaded_model = pickle.load(open(model_path, "rb"))
 loaded_tfidf = pickle.load(open(vectorizer_path, "rb"))
 
+# Define preprocessing function
+def preprocess_text(text):
+    # Lowercasing
+    text = text.lower()
+    # Removing special characters and numbers
+    text = re.sub(r'\W', ' ', text)
+    text = re.sub(r'\d', ' ', text)
+    # Removing extra spaces
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
 # Define prediction function
 def get_pred(data):
+    data = preprocess_text(data)
     data = loaded_tfidf.transform([data])
     pred = loaded_model.predict(data)
     return pred[0]  # Return the prediction directly

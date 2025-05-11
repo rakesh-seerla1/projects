@@ -89,7 +89,7 @@ https://github.com/rakesh-seerla1/projects/blob/872277c0979bb052933c1ff23a1be0c3
 
 ### 🔹 Article Frequency by Topic (Bar Chart)
 
-https://github.com/rakesh-seerla1/projects/blob/872277c0979bb052933c1ff23a1be0c3f529a048/Images/Screenshot%202025-05-11%20142621.png 
+Images/Screenshot 2025-05-11 142621.png
 
 Insights:
 - Majority articles are on **Politics**, **World News**, and **US News**

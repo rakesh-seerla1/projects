@@ -1,5 +1,7 @@
 # 🧠 Real or Fake News Detection with BERT & Streamlit
-https://github.com/rakesh-seerla1/projects/blob/main/Images/real%20&%20fake.png?raw=true
+
+![image](https://github.com/user-attachments/assets/6b36cd01-bf95-4358-a44a-6716279366aa)
+
 
 A machine learning web app to identify whether a piece of news is **real** or **fake**, using state-of-the-art NLP techniques. This project is built to **combat misinformation** in the digital era using **transformers** and deployed through **Streamlit** for real-time prediction.
 

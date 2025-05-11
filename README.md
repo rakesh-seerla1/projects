@@ -1,9 +1,10 @@
-# 📰 Real or Fake News Detection using NLP and BERT
+![real   fake](https://github.com/user-attachments/assets/f998a811-d2d8-41fc-9f34-d8bb558010ba)# 📰 Real or Fake News Detection using NLP and BERT
 
 Welcome to the Real or Fake News Detection project — a robust and production-ready system that uses Natural Language Processing and Machine Learning to classify whether a given news article is **real** ✅ or **fake** ❌.
 
 ![Real vs Fake]
-"C:\Users\seerl\Downloads\Portfolio-Website-Template-main\Portfolio-Website-Template-main\images\real & fake.png"
+
+
 
 
 

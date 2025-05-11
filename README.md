@@ -85,10 +85,11 @@ Here’s a breakdown of every file/folder in the repo to help newcomers quickly 
 Balanced dataset used to avoid model bias.
 
 ### 🔹 News Topics Distribution (Pie Chart)
-![Pie Chart](images/Screenshot%202025-05-11%20142609.png)
+https://github.com/rakesh-seerla1/projects/blob/872277c0979bb052933c1ff23a1be0c3f529a048/Images/Screenshot%202025-05-11%20142609.png 
 
-### 🔹 Article Frequency by Topic
-![Bar Chart](images/Screenshot%202025-05-11%20142621.png)
+### 🔹 Article Frequency by Topic (Bar Chart)
+
+https://github.com/rakesh-seerla1/projects/blob/872277c0979bb052933c1ff23a1be0c3f529a048/Images/Screenshot%202025-05-11%20142621.png 
 
 Insights:
 - Majority articles are on **Politics**, **World News**, and **US News**

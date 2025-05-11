@@ -31,6 +31,10 @@ This project provides a scalable and deployable solution that:
 ## 🚀 Live Demo
 
 👉 **Try it here:** [https://fake-real-analysis-seerla.streamlit.app](https://fake-real-analysis-seerla.streamlit.app)
+![Screenshot 2025-05-11 141947](https://github.com/user-attachments/assets/bf01b810-f721-40ce-94d4-bcbf5cd74e89)
+![Screenshot 2025-05-11 142013](https://github.com/user-attachments/assets/254d3997-cf42-4fc2-bdde-f5f5b7af0c3f)
+![Screenshot 2025-05-11 142034](https://github.com/user-attachments/assets/ac3fc93a-dcda-43d0-bb9d-ac87e367435b)
+![Screenshot 2025-05-11 142047](https://github.com/user-attachments/assets/5ffb3632-8c5f-487b-a4d7-4390dfb90bce)
 
 ---
 
@@ -85,11 +89,13 @@ Here’s a breakdown of every file/folder in the repo to help newcomers quickly 
 Balanced dataset used to avoid model bias.
 
 ### 🔹 News Topics Distribution (Pie Chart)
-https://github.com/rakesh-seerla1/projects/blob/872277c0979bb052933c1ff23a1be0c3f529a048/Images/Screenshot%202025-05-11%20142609.png 
+![Screenshot 2025-05-11 142609](https://github.com/user-attachments/assets/e2695e1a-5a15-48ba-904d-9860eaa7c441)
+
 
 ### 🔹 Article Frequency by Topic (Bar Chart)
 
-Images/Screenshot 2025-05-11 142621.png
+![Screenshot 2025-05-11 142621](https://github.com/user-attachments/assets/8b515e4b-07a3-405c-873e-332268fda992)
+
 
 Insights:
 - Majority articles are on **Politics**, **World News**, and **US News**
@@ -100,10 +106,10 @@ Insights:
 ## 🖼️ Streamlit App Walkthrough
 
 ### 🧪 Input Real News Example
-![Real News Prediction](images/Screenshot%202025-05-11%20142013.png)
+![Screenshot 2025-05-11 141932](https://github.com/user-attachments/assets/e8f04821-ad40-4845-a63e-9be3a8f42c37)
 
 ### 🚫 Input Fake News Example
-![Fake News Prediction](images/Screenshot%202025-05-11%20142150.png)
+![Screenshot 2025-05-11 142150](https://github.com/user-attachments/assets/9a004a52-a1a6-40d4-a4e1-134a27744fb8)
 
 ---
 
